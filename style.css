@@ -1,0 +1,54 @@
+body{
+    
+    
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    justify-content: center;
+}
+.cattycat{
+ 
+  
+}
+
+
+h1{ 
+    
+    font-size: 70px;
+    padding: 5px;
+   
+    text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+  background-color: bisque;
+  border-radius: 20px;
+}
+
+.cattycat{
+  position: relative;
+}
+
+.containersearch {
+  position: absolute;
+}
+
+
+input{
+  border-radius: 20px;
+ width: 300px;
+ height: 50px;
+  /* Center vertically and horizontally */
+  position: absolute;
+  left: 41%;
+  margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+}
+
+img{
+ border: 5px solid gray
+  padding: 10px;
+  border-radius: 20px;
+  margin: 40px;
+}
